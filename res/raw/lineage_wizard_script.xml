@@ -10,6 +10,7 @@
     <WizardAction
         wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_BLUETOOTH_SETUP;end"
         id="bluetooth_setup">
+    <!-- Disabled
         <result wizard:action="welcome" />
     </WizardAction>
 
@@ -95,6 +96,7 @@
     <WizardAction
         wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.NAVIGATION_SETTINGS;end"
         id="navigation_settings">
+    -->
         <result wizard:action="finish" />
     </WizardAction>
 
